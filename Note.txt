@@ -1,0 +1,6 @@
+Study-note for Git:
+1. mkdir 目录名          创建空目录
+2. cd    目录名          转到目录下
+3. pwd   显示当前所在目录
+4. git init              将目录变成Git可管理的仓库
+
