@@ -4,13 +4,22 @@ Study-note for Git:
 2. cd    目录名          转到目录下
 3. pwd   显示当前所在目录
 4. git init              将目录变成Git可管理的仓库
+
 *添加文件到Git仓库：*******************************
 1. git add   文件名      
 2. git commit -m "提交说明"
 //commit可以一次提交很多文件
 //dir或ls   查看当前目录的文件
+
 *把修改提交到Git仓库：*****************************
 1. git add   文件名      
 2. git commit -m "提交说明"
 //git status告诉你有文件被修改过
 //git diff  查看修改内容
+//git log   查看历史记录
+//git log --pretty=oneline
+
+*版本退回：****************************************
+//git reset --hard HEAD^
+//git reset --hard 1094a(版本号不必要写全)
+//git reflog 查看版本号记录
