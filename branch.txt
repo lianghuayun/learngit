@@ -1,6 +1,10 @@
 *分支管理******************************
 *分支创建******************************
-1. git checkout -b dev
-or git branch dev
-   git checkout dev
+1. git switch -c dev
 //git branch           命令查看当前分支
+//git switch 分支名  切换分支
+//git merge dev        把dev分支的工作成果合并到master分支上
+//git branch -d dev    删除分支
+*因为创建、合并和删除分支非常快，所以Git鼓励你使用分支完成某个任务，合并后再删掉分支，这和直接在master分支上工作效果是一样的，但过程更安全。
+
+*解决冲突******************************
