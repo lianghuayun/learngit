@@ -1,0 +1,6 @@
+*分支管理******************************
+*分支创建******************************
+1. git checkout -b dev
+or git branch dev
+   git checkout dev
+//git branch           命令查看当前分支
